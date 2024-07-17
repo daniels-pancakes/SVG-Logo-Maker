@@ -1,0 +1,21 @@
+{
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "[![License: Unlicense](https://img.shields.io/badge/License-Unlicense-blue.svg)](http://unlicense.org/)",
+  "main": "svgLogoMaker.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "jest"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.7.0"
+  }
+}
