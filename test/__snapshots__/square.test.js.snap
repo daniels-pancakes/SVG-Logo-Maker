@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shape Square Render should output code to build an SVG xml file. 1`] = `
+"<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <style type="text/css">
+            </style>
+        </defs>
+              <rect width="35" height="35" x="7.5" y="8"
+            stroke-width="1"
+            fill="shapecolor"
+            />
+            <text fill="textcolor" text-anchor="middle" dominant-baseline="middle" x="25" y="26.5" class="text">text</text>
+            <text style="font-size:2; letter-spacing:1.5;" fill="textcolor" text-anchor="middle" dominant-baseline="middle" x="26" y="35.5" class="text">EST. 2024</text>
+        </svg>"
+`;

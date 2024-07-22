@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 
-describe('svgLogoMaker', () => {
+describe('input.js', () => {
  describe('inquirer.prompt', () => {
     describe('validate', () => {
         it('should log an error message when more than 3 characters entered.', async () => {
