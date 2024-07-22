@@ -7,6 +7,7 @@ let lgTxtColor;
 let lgShp;
 let lgShpColor;
 
+// Initialize the application by asking questions and generating the logo.
 const init = function() {
     input.input()
     .then(answers => {
@@ -15,6 +16,7 @@ const init = function() {
         lgShp = answers.shape;
         lgTxtColor = answers.textColor;
         lgShpColor = answers.shapeColor;
+        // Generate the logo based on the provided shape and color.
         let newShp;
         if (lgShp === 'circle') {
             newShp = new shape.Circle(lgTxt, lgTxtColor, lgShpColor);
@@ -25,7 +27,9 @@ const init = function() {
         else if (lgShp === 'square') {
             newShp = new shape.Square(lgTxt, lgTxtColor, lgShpColor);
         }
+        // Write the logo to a file named 'logo.xml'.
         wq.writeToFile('./examples/logo.xml', `${newShp.render(lgTxt, lgTxtColor, lgShpColor)}`)
     });
 };
+// Start the application.
 init();
