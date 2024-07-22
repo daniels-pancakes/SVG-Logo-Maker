@@ -7,7 +7,7 @@ let lgTxtColor;
 let lgShp;
 let lgShpColor;
 function writeToFile(filename, data) {
-    fs.writeFile('logo.xml', data, (err) => err ? console.log(err) :
+    fs.writeFile('./examples/logo.xml', data, (err) => err ? console.log(err) :
     console.log('logo.xml file created in the current directory.'));
 }
 const init = function() {
@@ -40,10 +40,6 @@ const init = function() {
             type: 'input',
             name: 'shapeColor',
             message: 'Enter your shape color (by name or hex):',
-            validate: function(input) {
-            if (input.length <= 3){
-            return true;} else { return 'Please enter no more than 3 characters.';};
-            } 
         }
     ]).then(answers => {
         console.log('Your answers:', answers);
@@ -51,7 +47,8 @@ const init = function() {
         lgShp = answers.shape;
         lgTxtColor = answers.textColor;
         lgShpColor = answers.shapeColor;
-        writeToFile('logo.xml', `${answers.text}`)
+        let newShp = new shape.Square(lgTxt, lgTxtColor, lgShpColor);
+        writeToFile('./examples/logo.xml', `${newShp.render(lgTxt, lgTxtColor, lgShpColor)}`)
     });
 };
 init();
