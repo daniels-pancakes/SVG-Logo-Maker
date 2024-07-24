@@ -19,6 +19,10 @@ To install this script you will want to ensure the SVG Logo Maker script and all
 ## Usage Information
 To use this script you will want to run it from command line with a node command and then follow the script's prompts through the process.
 
+### Preview
+
+![Video walkthrough of the script in use.](./media/logomakerwalkthru.gif)
+
 ## License
 This project is licensed under The Unlicense License. For more details visit [The License Webpage](http://unlicense.org/)
  
