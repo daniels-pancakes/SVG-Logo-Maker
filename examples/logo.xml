@@ -1,5 +1,5 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="50,10 100,90 0,90" fill="#1f3333"/>
-        	<text style="font-size:20;" fill="#0a4a49" text-anchor="middle" dominant-baseline="middle" x="50" y="58" class="text">GOO</text>
-	    <text style="font-size:4; letter-spacing:1.5;" fill="#0a4a49" text-anchor="middle" dominant-baseline="middle" x="50" y="73" class="text">EST. 2024</text>
+        <polygon points="50,10 100,90 0,90" fill="brown"/>
+        	<text style="font-size:20;" fill="gold" text-anchor="middle" dominant-baseline="middle" x="50" y="58" class="text">THX</text>
+	    <text style="font-size:4; letter-spacing:1.5;" fill="gold" text-anchor="middle" dominant-baseline="middle" x="50" y="73" class="text">EST. 2024</text>
         </svg>
