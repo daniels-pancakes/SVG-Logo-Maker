@@ -27,7 +27,7 @@ describe('input.js', () => {
                     }
                     };
                   const result = validateFunction(input);
-                  expect(result).toBe(true);
+                  expect(result).toBe('Please enter no more than 3 characters.');
                 });
             });
      })
